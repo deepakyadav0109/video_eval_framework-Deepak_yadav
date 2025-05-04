@@ -39,25 +39,28 @@ All components are orchestrated using **LangGraph**, with modular agents communi
 
 ---
 
+## ⚙️ Setup Instructions
 
-## 🚀 Setup Instructions
+Follow these steps to set up and run the Video Evaluation Framework on your local machine:
 
-1. Clone the Repository
+### 1. 🔀 Clone the Repository
 
+```bash
 git clone https://github.com/deepakyadav0109/video_eval_framework-Deepak_yadav.git
-
 cd video_eval_framework-Deepak_yadav
+```
 
-
-2. Add Your API Key
-
+### 2. Add Your API Key
 Make a new file with name .env in the root
 
 Then add:
 
+```
 OPENAI_API_KEY= "your_actual_openai_api_key"
 
-3. Modify Inputs in main.py
+```
+
+### 3. Modify Inputs in main.py
 
 Open main.py and edit the input_state dictionary:
 
@@ -68,24 +71,26 @@ Open main.py and edit the input_state dictionary:
 (iii) Change the prompt according to requirements for checking the semantic similarity of video with this prompt.
 
 
-4. Build the Docker Image
-   
-Run the command:
-docker-compose build
+### 4. Build the Docker Image
 
-5. Run the Framework
-   
-Run the command:
-docker-compose up
+Run the command :
+
+```docker-compose build
+```
+
+### 5. 🏃 Run the Framework
+
+Run the command :
+
+```docker-compose up
+```
 
 The system will:
 
-	•	Process the video to compute optical flow.
- 
-	•	Pass it with your criteria and prompt to the Reasoning agent.
- 
-	•	The results will be passed on to LLM to generate Quantitative + Qualitative Assessment (Report).
+•⁠  ⁠Process the video to compute optical flow.
 
- 	•	Print the natural language evaluation report to the terminal..
- 
+•⁠  ⁠Pass it with your criteria and prompt to the Reasoning agent.
 
+•⁠  ⁠The results will be passed on to LLM to generate Quantitative + Qualitative Assessment (Report).
+
+•⁠  ⁠Print the natural language evaluation report to the terminal..
