@@ -24,13 +24,11 @@ cd video_eval_framework-Deepak_yadav
 
 2. Add Your API Key
 
-Copy the example environment file and update it with your OpenAI API key:
+Make a new file with name .env in the root
 
-cp .env.example .env
+Then add:
 
-Then edit .env and add:
-
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OPENAI_API_KEY= "your_actual_openai_api_key"
 
 3. Modify Inputs in main.py
 
