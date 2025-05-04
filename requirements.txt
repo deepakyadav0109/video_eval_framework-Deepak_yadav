@@ -1,0 +1,12 @@
+opencv-python
+matplotlib
+torch
+ftfy
+regex
+tqdm
+Pillow
+git+https://github.com/openai/CLIP.git
+langchain
+langgraph
+openai
+python-dotenv
