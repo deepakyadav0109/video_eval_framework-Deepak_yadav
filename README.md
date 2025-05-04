@@ -55,9 +55,8 @@ Make a new file with name .env in the root
 
 Then add:
 
-```
+```bash
 OPENAI_API_KEY= "your_actual_openai_api_key"
-
 ```
 
 ### 3. Modify Inputs in main.py
