@@ -46,7 +46,6 @@ All components are orchestrated using **LangGraph**, with modular agents communi
 
 ## 🛠️ System Architecture
 
-```plaintext
 Video Path + Prompt + Evaluation Criteria (JSON)
                 │
                 ▼
@@ -60,6 +59,7 @@ Video Path + Prompt + Evaluation Criteria (JSON)
                 ▼
        [ Reporting Agent ]
  → Structured report via LLM
+
 
 ## 🚀 Setup Instructions
 
