@@ -75,14 +75,16 @@ Open main.py and edit the input_state dictionary:
 
 Run the command :
 
-```docker-compose build
+```bash
+docker-compose build
 ```
 
 ### 5. 🏃 Run the Framework
 
 Run the command :
 
-```docker-compose up
+```bash
+docker-compose up
 ```
 
 The system will:
