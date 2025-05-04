@@ -44,21 +44,12 @@ All components are orchestrated using **LangGraph**, with modular agents communi
 
 ---
 
-## 🛠️ System Architecture
+## 🛠️ Requirements
 
-Video Path + Prompt + Evaluation Criteria (JSON)
-                │
-                ▼
-       [ Perception Agent ]
-     → Frame extraction & Optical Flow
-                │
-                ▼
-       [ Reasoning Agent ]
- → CLIP-based semantic matching & Scene transitions
-                │
-                ▼
-       [ Reporting Agent ]
- → Structured report via LLM
+- [Docker](https://www.docker.com/)
+- OpenAI API Key (get one at https://platform.openai.com/account/api-keys)
+
+---
 
 
 ## 🚀 Setup Instructions
