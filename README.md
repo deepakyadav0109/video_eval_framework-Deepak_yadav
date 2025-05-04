@@ -17,9 +17,9 @@ This project offers a lightweight, modular framework for evaluating video conten
 
 1. Clone the Repository
 
-git clone https://github.com/deepakyadav0109/video_eval_framework-Deepak_yadav.git
+. git clone https://github.com/deepakyadav0109/video_eval_framework-Deepak_yadav.git
 
-cd video_eval_framework-Deepak_yadav
+. cd video_eval_framework-Deepak_yadav
 
 
 2. Add Your API Key
