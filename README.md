@@ -5,16 +5,6 @@ This project offers a Multi-Agent System to qauantitatively and Qualitatively as
 
 ---
 
-## 🛠️ Requirements
-
-- [Docker](https://www.docker.com/)
-- OpenAI API Key (get one at https://platform.openai.com/account/api-keys)
-
----
-# 📹 Video Evaluation Framework
-
-A modular, multi-agent system for qualitative and quantitative video assessment using advanced computer vision, multimodal AI models, and LLM-driven reporting.
-
 ## 🚀 Overview
 
 This framework evaluates videos through a **three-stage pipeline**:
