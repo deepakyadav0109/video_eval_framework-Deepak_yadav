@@ -57,8 +57,10 @@ The system will:
 
 	•	Process the video to compute optical flow.
  
-	•	Pass it with your criteria and prompt to the LLM.
+	•	Pass it with your criteria and prompt to the Reasoning agent.
  
-	•	Print the natural language evaluation report to the terminal.
+	•	The results will be passed on to LLM to generate Quantitative + Qualitative Assessment (Report).
+
+ 	•	Print the natural language evaluation report to the terminal..
  
 
