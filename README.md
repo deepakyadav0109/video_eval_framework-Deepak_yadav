@@ -4,7 +4,6 @@
 This project offers a Multi-Agent System to qauantitatively and Qualitatively assess video content and generates Report using Large Language Models (LLMs). It analyzes the optical flow of a video and uses a prompt-driven approach to generate a professional evaluation report through OpenAI’s GPT-based API.
 
 ---
----
 
 ## 🛠️ Requirements
 
