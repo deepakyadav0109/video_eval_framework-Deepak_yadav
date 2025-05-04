@@ -23,7 +23,10 @@ cd video_eval_framework-Deepak_yadav
 
 ---
 
-## 2. Add Your API Key
+
+⸻
+
+2. Add Your API Key
 
 Copy the example environment file and update it with your OpenAI API key:
 cp .env.example .env
