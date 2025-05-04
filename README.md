@@ -54,6 +54,7 @@ Run the command:
 docker-compose up
 
 The system will:
+
 	•	Process the video to compute optical flow.
  
 	•	Pass it with your criteria and prompt to the LLM.
